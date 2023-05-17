@@ -14,5 +14,5 @@ root.title("Button Example")
 button = tk.Button(root, text="Click Me!", command=button_click)
 button.pack()
 
-#
+#Start the main event loop
 root.mainloop()
