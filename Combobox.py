@@ -1,14 +1,15 @@
-#
+##import tinker library
 import tkinter as tk
 from tkinter import ttk
 
-#
+#Declaring the function
 def on_select(event):
 
     #Create an item object that obtains the value of the selected item.
     selected_item = event.widget.get()
     print("Selected item:", selected_item)
-#
+
+#Create the root window object and Set the title of the window
 root = tk.Tk()
 root.title("Kibrom is silly")    
 
